@@ -122,3 +122,54 @@ a {
 .img-text {
     color: darkslategray;
 }
+
+.lg-container {
+    width: 100%;
+    background-color: lightgray;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    width: 70%;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.author-container {
+    display: flex;
+    justify-content: end;
+    width: 70%;
+}
+.author {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+/* button container */
+
+.button-container {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.calltoaction {
+    display: flex;
+    padding: 20px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    border-radius: 16px;
+    width: 70%;
+    align-items: center;
+    height: 45%;
+}
