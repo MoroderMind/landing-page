@@ -38,7 +38,7 @@ a {
     font-weight: bolder;    
 }
 
-.links, .second {
+.links, .second, .img-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -76,4 +76,49 @@ a {
 .container {
     display: flex;
     justify-content: space-between;
+}
+
+/* CSS for the white box */
+
+.white-container {
+    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-placeholder {
+    width: 128px;
+    height: 128px;
+    background-color: #ccc;
+    border: 2px solid blue;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.img-text {
+    color: darkslategray;
 }
